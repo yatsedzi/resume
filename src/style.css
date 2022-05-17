@@ -111,7 +111,6 @@ body {
 }
 
 .column__info {
-  color: #757575;
   font-size: 15px;
   font-weight: 300;
 }
@@ -143,8 +142,20 @@ body {
 
 
 /* Skills */
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.skills__first-part {
+  width: 50%;
+}
+
+
 .skills__header {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .column__skills {
@@ -167,10 +178,21 @@ body {
   color: #009688;
 }
 
+.skills__text-skills {
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #009688;
+  color: #fff;
+  padding: 3px 7px;
+  border-radius: 5px;
+
+}
+
+
 .skills__text {
-  color: #757575;
   font-weight: 300;
   font-size: 15px;
+
 }
 
 .skills__item {
