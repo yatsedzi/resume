@@ -71,17 +71,14 @@ body {
 }
 
 .column__title {
-  bottom: -90px;
-  left: 0;
-  z-index: 1;
   color: #333;
   font-size: 28px;
   font-weight: 500;
   text-transform: capitalize;
-  position: absolute;
+  margin-bottom: -5px;
   width: 100%;
   text-align: center;
-
+  display: block;
 }
 
 .column__header {
@@ -91,7 +88,7 @@ body {
 .column__photo {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .column__social-item {
@@ -103,7 +100,7 @@ body {
 }
 
 .column__social {
-  margin-top: 80px;
+
 }
 
 .column__icons {
@@ -165,7 +162,7 @@ body {
 .skills__title {
  font-size: 22px;
  font-weight: 400;
- color: #757575;
+ color: #333333;
  margin-left: 40px;
  }
 
@@ -361,7 +358,7 @@ body {
 }
 
 .second__title {
-  color: #797575;
+  color: #333333;
   font-size: 30px;
   text-transform: capitalize;
   font-weight: 400;
@@ -395,7 +392,7 @@ body {
 .about__title {
   font-size: 22px;
   font-weight: 300;
-  color: #757575;
+  color: #333333;
   margin-bottom: 10px;
 }
 
@@ -440,4 +437,25 @@ body {
 
 .about__text--last {
   padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+
+
+
+.btn {
+  margin-right: 100px;
+  float: right;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+
+.btn:hover {
+  background-color: RoyalBlue;
 }
