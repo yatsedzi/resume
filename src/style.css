@@ -459,3 +459,11 @@ body {
 .btn:hover {
   background-color: RoyalBlue;
 }
+
+
+
+
+.fa-linkedin-in:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
