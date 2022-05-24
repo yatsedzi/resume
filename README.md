@@ -1,2 +1,2 @@
-This project is my training in HTML and CSS practice. I have been doing this before I knew GIT. 
-That's why I first created the whole page and only then pushed it to the remote repository to make visible for others. 
+This is just CSS and HTML code without any js or server side. It was made to perform basic skills in layout writing and at the same time to have resume about myself
+
